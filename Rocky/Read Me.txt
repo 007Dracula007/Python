@@ -1,7 +1,8 @@
    ROCKY AI
 ----------------------
-
-run 'main.py' via cmd
+* Create a folder 'rocky' in 'c:/users/<username>/pycharmprojects/', paste all files and folders there
+* Change '<username>' in all files.
+* Run 'main.py' via cmd
 
 Requiremints
 ------------------------------
@@ -9,8 +10,6 @@ Requiremints
 * Python3 should be installed
 
 * Win32cl.client and SpeechRecognition module should be installed (if not, type 'pip install pyp2iwin' and 'pip install speechrecognition' in cmd to install)
-
-* There might be a problem related to reminders. Change the 'reminder.txt' path in source code to avoid that.
 
 * Supports only in windows latest versions 
 

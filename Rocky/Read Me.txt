@@ -2,6 +2,7 @@
 ----------------------
 * Create a folder 'rocky' in 'c:/users/<username>/pycharmprojects/', paste all files and folders there
 * Change '<username>' in all files.
+* Change IP address in all the files
 * Run 'main.py' via cmd
 
 Requiremints
@@ -9,7 +10,9 @@ Requiremints
 
 * Python3 should be installed
 
-* Win32cl.client and SpeechRecognition module should be installed (if not, type 'pip install pyp2iwin' and 'pip install speechrecognition' in cmd to install)
+* Win32cl.client, bs4, and SpeechRecognition module should be installed (if not, type ('pip install pyp2iwin' OR 'pip install pywin32' OR 'pip install pypiwin32'), 'pip install bs4' and 'pip install speechrecognition' in cmd to 
+
+install)
 
 * Supports only in windows latest versions 
 

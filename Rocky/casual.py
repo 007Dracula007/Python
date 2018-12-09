@@ -1,9 +1,3 @@
-"""
-This is writtern by Abhijith K A
-copyright (c) 30 Nov 2017
-
-The module lets your do casual talk with your model
-"""
 import win32com.client as wincl
 import datetime
 import os
@@ -110,14 +104,14 @@ class Casual:
                 task = task.replace(alarmTime[0], "")
                 data = "Task: " + task + " " + alarmTime[0] + "\n"
 
-                if os.path.isdir("c:/users/adhit/pycharmprojects/rocky/Brain"):
-                    os.chdir("c:/users/adhit/pycharmprojects/rocky/Brain")
+                if os.path.isdir("c:/users/<username>/pycharmprojects/rocky/Brain"):
+                    os.chdir("c:/users/<username>/pycharmprojects/rocky/Brain")
                     reminders = open("reminders.txt", "a")
                     reminders.write(data)
                     reminders.close()
                 else:
-                    os.mkdir("c:/users/adhit/pycharmprojects/rocky/Brain")
-                    os.chdir("c:/users/adhit/pycharmprojects/rocky/Brain")
+                    os.mkdir("c:/users/<username>/pycharmprojects/rocky/Brain")
+                    os.chdir("c:/users/<username>/pycharmprojects/rocky/Brain")
                     reminders = open("reminders.txt", "w")
                     reminders.write(data)
                     reminders.close()

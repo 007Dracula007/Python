@@ -23,7 +23,7 @@ night_mode = False
 
 def reminders():
 
-    file = "c:/users/adhit/pycharmprojects/rocky/brain/reminders.txt"
+    file = "c:/users/<username>/pycharmprojects/rocky/brain/reminders.txt"
     while True:
         if os.path.isfile(file):
             hour = datetime.datetime.now().hour

@@ -1,10 +1,3 @@
-"""
-This is writtern by Abhijith K A
-copyright (c) 30 Nov 2017
-
-The module lets your search, ask questions or doubts to your model
-"""
-
 import urllib.request
 import urllib.parse
 from bs4 import BeautifulSoup

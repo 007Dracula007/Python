@@ -1,5 +1,5 @@
-   ROCKY AI
-----------------------
+   ROCKY AI [ AI with a ton of if-else conditions :P ]
+----------------------------------------------------------
 * Create a folder 'rocky' in 'c:/users/<username>/pycharmprojects/', paste all files and folders there
 * Change '<username>' in all files.
 * Change IP address in all the files
